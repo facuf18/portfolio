@@ -15,7 +15,6 @@ import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 type FormValues = {
   name: string;
