@@ -55,7 +55,7 @@ function Hero() {
               </Heading>
               <Text
                 fontSize='lg'
-                width='400px'
+                width={{ base: '300px', md: '400px' }}
                 m={0}
                 textAlign={{ base: 'center', md: 'start' }}
               >

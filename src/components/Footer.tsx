@@ -1,4 +1,12 @@
-import { Box, Text, Container, HStack, Image, Link } from '@chakra-ui/react';
+import {
+  Box,
+  Text,
+  Container,
+  HStack,
+  Stack,
+  Image,
+  Link,
+} from '@chakra-ui/react';
 
 function Footer() {
   return (
@@ -10,7 +18,13 @@ function Footer() {
       borderTopColor='orange.500'
     >
       <Container maxWidth='1400px' margin='auto'>
-        <HStack justify='center' align='center' gap={20} py={2}>
+        <Stack
+          justify='center'
+          align='center'
+          gap={{ base: '5', md: '20' }}
+          py={2}
+          direction={{ base: 'column', md: 'row' }}
+        >
           <Text fontSize='larger' fontWeight='bold' color='whiteAlpha.800'>
             Facundo Faccioli
           </Text>
@@ -40,7 +54,7 @@ function Footer() {
               />
             </Link>
           </HStack>
-        </HStack>
+        </Stack>
       </Container>
     </Box>
   );
