@@ -28,8 +28,8 @@ function Hero() {
           justify='space-between'
           align='center'
           h='auto'
-          direction={{ base: 'column', md: 'row' }}
-          gap={{ base: '10', md: '0' }}
+          direction={{ base: 'column', lg: 'row' }}
+          gap={{ base: '10', lg: '0' }}
         >
           <Box>
             <Image
@@ -42,29 +42,33 @@ function Hero() {
               shadow='dark-lg'
             />
           </Box>
-          <VStack align={{ base: 'center', md: 'flex-start' }} gap={10}>
+          <VStack align={{ base: 'center', lg: 'flex-start' }} gap={10}>
             <VStack
-              align={{ base: 'center', md: 'flex-start' }}
+              align={{ base: 'center', lg: 'flex-start' }}
               justify='center'
             >
               <Heading
                 color='orange.500'
                 size='3xl'
-                textAlign={{ base: 'center', md: 'start' }}
+                textAlign={{ base: 'center', lg: 'start' }}
               >
                 Hello, I'm Facundo.
               </Heading>
               <Text
                 fontSize='lg'
-                width={{ base: '300px', md: '400px' }}
+                width={{ base: '300px', lg: '400px' }}
                 m={0}
-                textAlign={{ base: 'center', md: 'start' }}
+                textAlign={{ base: 'center', lg: 'start' }}
               >
                 FullStack Developer with formation in JavaScript, React, Redux,
                 Node.js and many other technologies.
               </Text>
             </VStack>
-            <HStack gap={3}>
+            <HStack
+              gap={3}
+              wrap='wrap'
+              justify={{ base: 'center', lg: 'flex-start' }}
+            >
               <Link
                 href='https://www.linkedin.com/in/facundofaccioli/'
                 isExternal={true}
@@ -99,7 +103,7 @@ function Hero() {
                   colorScheme='orange'
                   rightIcon={<DownloadIcon />}
                 >
-                  CV
+                  Download CV
                 </Button>
               </Link>
             </HStack>
