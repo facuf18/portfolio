@@ -20,7 +20,7 @@ function About() {
               My name is Facundo Faccioli, and I'm from Devoto, Córdoba,
               Argentina. For many years I had been studying Electromechanical
               Engineering, but in the pandemic I started asking if that was what
-              i really want to dedicate my life. Researching and trying new
+              I really want to dedicate my life. Researching and trying new
               things I notice that I really like web development, so in 2021 I
               started with the Frontend Coderhouse courses. In 2022, I decide to
               take in serious this matter and start the Soy Henry's FullStack
