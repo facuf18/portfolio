@@ -19,13 +19,13 @@ function Navbar() {
   return (
     <Box
       as='header'
-      bgColor='blackAlpha.900'
-      opacity={0.95}
+      bgColor='orange.600'
+      opacity={0.9}
       w='100%'
       p={6}
       position='fixed'
       borderBottom='1px'
-      borderBottomColor='orange.500'
+      borderBottomColor='whiteAlpha.500'
       zIndex={100}
     >
       <Container maxWidth='1400px' margin='auto' color='whiteAlpha.800'>

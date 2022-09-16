@@ -12,6 +12,7 @@ import {
 } from '@chakra-ui/react';
 import pic from '../assets/pic.jpg';
 import { DownloadIcon } from '@chakra-ui/icons';
+import Technologies from './Technologies';
 
 function Hero() {
   return (
@@ -91,6 +92,7 @@ function Hero() {
               <Link
                 href='https://drive.google.com/file/d/1MnyRV6aH0vEITIUji67-7V09A1H8eRYz/view?usp=sharing'
                 isExternal
+                _hover={{ textDecoration: 'none' }}
               >
                 <Button
                   variant='solid'
@@ -103,6 +105,7 @@ function Hero() {
             </HStack>
           </VStack>
         </Stack>
+        <Technologies />
       </Container>
     </Box>
   );

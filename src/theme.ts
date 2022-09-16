@@ -16,10 +16,10 @@ const theme = extendTheme({
           borderBottomColor: 'transparent',
           _hover: {
             bg: 'transparent',
-            color: 'orange.500',
+            color: 'orange.200',
             borderBottom: '2px',
             borderRadius: '0px',
-            borderBottomColor: 'orange.500',
+            borderBottomColor: 'orange.200',
           },
         },
       },

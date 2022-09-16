@@ -11,11 +11,12 @@ import {
 function Footer() {
   return (
     <Box
-      bgColor='blackAlpha.900'
+      bgColor='orange.600'
+      opacity={0.9}
       w='100%'
       h='auto'
       borderTop='1px'
-      borderTopColor='orange.500'
+      borderTopColor='whiteAlpha.500'
     >
       <Container maxWidth='1400px' margin='auto'>
         <Stack
