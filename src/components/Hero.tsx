@@ -64,35 +64,44 @@ function Hero() {
                 Node.js and many other technologies.
               </Text>
             </VStack>
-            <HStack
-              gap={3}
-              wrap='wrap'
-              justify={{ base: 'center', lg: 'flex-start' }}
-            >
-              <Link
-                href='https://www.linkedin.com/in/facundofaccioli/'
-                isExternal={true}
+            <VStack align={{ base: 'center', lg: 'flex-start' }} gap={2}>
+              <HStack
+                gap={3}
+                wrap='wrap'
+                justify={{ base: 'center', lg: 'flex-start' }}
               >
-                <Image
-                  src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
-                  w={10}
-                  h={10}
-                />
-              </Link>
-              <Link href='https://github.com/facuf18' isExternal={true}>
-                <Image
-                  src='https://cdn-icons-png.flaticon.com/512/25/25231.png'
-                  w={10}
-                  h={10}
-                />
-              </Link>
-              <Link href='mailto:facufaccioli18@gmail.com' isExternal={true}>
-                <Image
-                  src='https://camo.githubusercontent.com/e1fb4ce58fc1074489bdbdacd0c175ffa7cbd1182ecb3ac4cb77ea8b8271288f/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676d61696c2f676d61696c2d69636f6e2e737667'
-                  w={12}
-                  h={12}
-                />
-              </Link>
+                <Link
+                  href='https://www.linkedin.com/in/facundofaccioli/'
+                  isExternal={true}
+                >
+                  <Image
+                    src='https://cdn-icons-png.flaticon.com/512/174/174857.png'
+                    w={10}
+                    h={10}
+                  />
+                </Link>
+                <Link href='https://github.com/facuf18' isExternal={true}>
+                  <Image
+                    src='https://cdn-icons-png.flaticon.com/512/25/25231.png'
+                    w={10}
+                    h={10}
+                  />
+                </Link>
+                <Link href='mailto:facufaccioli18@gmail.com' isExternal={true}>
+                  <Image
+                    src='https://camo.githubusercontent.com/e1fb4ce58fc1074489bdbdacd0c175ffa7cbd1182ecb3ac4cb77ea8b8271288f/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676d61696c2f676d61696c2d69636f6e2e737667'
+                    w={12}
+                    h={12}
+                  />
+                </Link>
+                <Link href='https://wa.me/3564646349' isExternal={true}>
+                  <Image
+                    src='https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png'
+                    w={10}
+                    h={10}
+                  />
+                </Link>
+              </HStack>
               <Link
                 href='https://drive.google.com/file/d/1MnyRV6aH0vEITIUji67-7V09A1H8eRYz/view?usp=sharing'
                 isExternal
@@ -106,7 +115,7 @@ function Hero() {
                   Download CV
                 </Button>
               </Link>
-            </HStack>
+            </VStack>
           </VStack>
         </Stack>
         <Technologies />
